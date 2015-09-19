@@ -1,0 +1,21 @@
+ptolemyUpdates, 2005-2015
+Andy Ganse, Applied Physics Laboratory, University of Washington
+aganse@apl.washington.edu
+
+----------------------------------------------------------------
+Dependencies: 
+* ptolemy.plot (PTPlot v2.0):
+  http://ptolemy.eecs.berkeley.edu/java/ptolemy.plot2.0/ptolemy/plot/
+----------------------------------------------------------------
+
+These are some updated class files from the Ptolemy plot distribution
+(an old one at that, this code originated a long time ago!).  Earlier
+versions of these files were written by my colleague Pete Brodsky at
+APL-UW, and then fairly heavily modifed by me since then so I keep
+them separate from his stuff.
+
+These updates are used by my packages RayDemo, SpheRayDemo, dataTools,
+and MultiRegressTools.  So just a library package this; its files get
+compiled by those other apps so the classfiles can be packaged into
+their respective jar files.
+
